@@ -1,0 +1,141 @@
+.gallery13-thq-gallery3-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gallery13-thq-max-width-elm {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gallery13-thq-section-title-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gallery13-thq-text-elm1 {
+  text-align: center;
+}
+ 
+.gallery13-thq-text-elm2 {
+  text-align: center;
+}
+ 
+.gallery13-thq-content-elm {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gallery13-container1 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-thq-image1-elm {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gallery13-container2 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-thq-image2-elm {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gallery13-container3 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gallery13-thq-image3-elm {
+  width: 100%;
+  height: 340px;
+  max-width: 600px;
+}
+ 
+.gallery13-text4 {
+  display: inline-block;
+}
+ 
+.gallery13-text5 {
+  display: inline-block;
+}
+ 
+.gallery13-text6 {
+  display: inline-block;
+}
+ 
+.gallery13-text7 {
+  display: inline-block;
+}
+ 
+.gallery13-text8 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gallery13-thq-content-elm {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery13-thq-image1-elm {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery13-thq-image2-elm {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery13-thq-image3-elm {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gallery13-thq-max-width-elm {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}

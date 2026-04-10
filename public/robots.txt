@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://improbable-unfolded-human-qng6o0.teleporthq.app/sitemap.xml
